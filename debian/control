@@ -1,0 +1,18 @@
+Source: twig-extensions
+Section: web
+Priority: optional
+Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 9), phpunit, phpab, pkg-php-tools,
+ php-symfony-translation, php-symfony-phpunit-bridge,
+ php-symfony-polyfill-mbstring
+Standards-Version: 3.9.8
+Homepage: https://github.com/eduvpn-debian/Twig-extensions
+Vcs-Git: git://github.com/eduvpn-debian/Twig-extenions.git
+Vcs-Browser: https://github.com/eduvpn-debian/Twig-extenions/
+
+Package: php-twig-extensions
+Architecture: any
+Depends: ${misc:Depends}, ${phpcomposer:Debian-require}, php-symfony-translation
+Suggests: ${phpcomposer:Debian-suggest}
+Description: Twig extensions
+
