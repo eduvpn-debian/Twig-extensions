@@ -11,7 +11,7 @@ Vcs-Git: git://github.com/eduvpn-debian/Twig-extenions.git
 Vcs-Browser: https://github.com/eduvpn-debian/Twig-extenions/
 
 Package: php-twig-extensions
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${phpcomposer:Debian-require}
 Suggests: ${phpcomposer:Debian-suggest}
 Description: Twig extensions
